@@ -15,4 +15,4 @@ d 个属性的示例 x = （x1;x2;...;xd）
 解
   <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
-
+<a href="http://www.codecogs.com/eqnedit.php?latex=\underset{(\omega,b)&space;}{arg&space;min}{\sum_{i=1}^{m}\left&space;(&space;f(x_{i})-y_{i}&space;\right&space;)^{2}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\underset{(\omega,b)&space;}{arg&space;min}{\sum_{i=1}^{m}\left&space;(&space;f(x_{i})-y_{i}&space;\right&space;)^{2}}" title="\underset{(\omega,b) }{arg min}{\sum_{i=1}^{m}\left ( f(x_{i})-y_{i} \right )^{2}}" /></a>
