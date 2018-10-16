@@ -13,6 +13,10 @@ d 个属性的示例 x = （x1;x2;...;xd）
 最简单情况：
   f(xi) = w xi + b，使f(xi)来逼近yi。 目的是通过求得w 和b 的最优解得到最简单的线性模型。
 解
-  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> <a href="http://www.codecogs.com/eqnedit.php?latex=\underset{(\omega,b)&space;}{arg&space;min}{\sum_{i=1}^{m}\left&space;(&space;f(x_{i})-y_{i}&space;\right&space;)^{2}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\underset{(\omega,b)&space;}{arg&space;min}{\sum_{i=1}^{m}\left&space;(&space;f(x_{i})-y_{i}&space;\right&space;)^{2}}" title="\underset{(\omega,b) }{arg min}{\sum_{i=1}^{m}\left ( f(x_{i})-y_{i} \right )^{2}}" /></a></script>
+  最小二乘法：如西瓜书54 公式（3.4） 基于最小化均方误差作为目标函数进行求解模型。
+  
+  参数估计： 将目标函数分别对w 和 b 求偏导，然后令偏导数结果都为零（依据凸函数最优解的性质），可求出w和b 最优解的闭式解。
+  
+  最后代回原函数 f(x) = w^Tx + b得到最简单的线性模型。
 
 
